@@ -24,7 +24,7 @@ public class connecticut100 {
             if (firstChar == 'q' || firstChar == 'Q') {
                 break; // 4. Don't ask for divisor if user asked to quit
             }
-
+            
             try {
                 // Try to parse the numerator
                 int numerator = Integer.parseInt(numInput);
